@@ -1,4 +1,4 @@
-# Clonación de la interfaz de Google creado con HTTML5 y CSS3 en el bootcamp de Tecnolochicas PRO
+# Clonación de la interfaz de Google usando HTML y CSS en el curso de tecnolochicaspro
 
 
 ## **ÍNDICE**
