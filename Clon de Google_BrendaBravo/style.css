@@ -1,0 +1,285 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}/**/
+
+header{
+    width: 100%;
+    height: 60px;
+}
+
+header nav{/*Mover lista a la parte superior derecha*/
+    display: flex;
+    justify-content: flex-end;
+}
+
+a{/*Vínculos de header*/
+    text-decoration: none;/*Eliminar decoración, Subrayado de links*/
+    cursor: pointer; /**/
+    position: relative;/*Para poder subrayar*/
+}
+
+header nav .nav-right-section{/*Mover a la derecha lista*/
+    width: 230px; /*Psicion de lista superior derecha*/
+    height: auto;/*Margen de altura*/
+    display: flex;
+    list-style: none;/*Eliminar viñetas*/
+    justify-content: center;
+    align-items: center;
+}
+
+nav .nav-right-section a{ /*Distancia entre viñetas*/
+    margin-right: 13px;
+    color: black;
+}
+
+nav .nav-right-section .menu-icon{ /*Agregar imagen icono puntos*/
+    background-image: url('https://img.icons8.com/ios-glyphs/90/000000/circled-menu.png');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: contain;/*Tamaño y alineado de icono*/
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+nav .nav-right-section .menu-icon:hover{/*Sombreado de icono puntos al pasar cursor*/
+    box-shadow: 1px 3px 6px 1px #00000083; /*Sombra se marca con dirección manecillas del reloj: arriba-derecha-abajo-izquierda*/
+    border-radius: 80px;/*Redondear imagen*/
+} 
+
+nav .nav-right-section img{ /*icono foto usuario*/
+    border-radius: 80px;/*Redondear imagen*/
+    margin-left: 18px;/*Posicion (separar) de imagen foto*/
+    width: 33px;
+    height: 33px;
+    cursor: pointer;
+}
+
+nav .nav-right-section img:hover{/*Sombreado de icono puntos al pasar cursor*/
+    box-shadow: 1px 3px 6px 1px #00000077; /*Sombra se marca con dirección manecillas del reloj: arriba-derecha-abajo-izquierda*/
+    border-radius: 80px;/*Redondear imagen*/
+} 
+
+header ul li a:hover{
+    text-decoration: underline;
+}
+ 
+main{
+    margin-top: 30px;/*Pocision imagen de google baja*/
+    text-align: center;/*Centrar todo*/
+}
+
+main .main-logo{ /*Logo google posición centrada*/
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-logo img{/*Tamaño imagen google*/
+    width: 310px;
+    height: 110px;
+}
+
+main .main-input{ /*Pocision barra búsqueda*/
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 30px; /*Crea espacio entre barra búsqueda y botones*/
+}
+
+/*Barra extensa*/
+main .main-input-container{ 
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    justify-content: center; /*Centra texto de label*/
+    align-items: center;
+}
+
+main .main-input input{
+    width: 450px;
+    height: 40px;
+    border: none;/*Elimina border de etiqueta*/
+    outline: none;
+}
+
+main .main-input-container:hover{ /*Sombreado de barra de búsqueda al pasar cursor*/
+box-shadow: 0 1px 6px 0 #20212447; /*Sombra se marca con dirección manecillas del reloj: arriba-derecha-abajo-izquierda*/
+}
+
+/*Icono de search*/
+main .main-input .search-icon{
+    background-image: url('https://img.icons8.com/android/24/000000/search.png');/*Imagen de ícono*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 24px;
+    height: 18px;
+    padding-left: 25px;
+}
+
+/*Icono de micrófono*/
+main .main-input .micro-icon{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png');/*Imagen de ícono*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 24px;
+    height: 18px;
+}
+
+/*Icono de cámara*/
+main .main-input .cam-icon{
+    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDI0LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IlN0YW5kYXJkX3Byb2R1Y3RfaWNvbiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIKCSB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjE5MnB4IiBoZWlnaHQ9IjE5MnB4IiB2aWV3Qm94PSIwIDAgMTkyIDE5MiIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMTkyIDE5MiIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxyZWN0IGlkPSJib3VuZGluZ19ib3hfMV8iIGZpbGw9Im5vbmUiIHdpZHRoPSIxOTIiIGhlaWdodD0iMTkyIi8+CjxnIGlkPSJhcnRfbGF5ZXIiPgoJPGNpcmNsZSBpZD0iRG90IiBmaWxsPSIjNDI4NUY0IiBjeD0iOTYiIGN5PSIxMDQuMTUiIHI9IjI4Ii8+Cgk8cGF0aCBpZD0iUmVkIiBmaWxsPSIjRUE0MzM1IiBkPSJNMTYwLDcydjQwLjE1VjEzNmMwLDEuNjktMC4zNCwzLjI5LTAuODIsNC44MnYwdjBjLTEuNTcsNC45Mi01LjQzLDguNzgtMTAuMzUsMTAuMzVoMHYwCgkJYy0xLjUzLDAuNDktMy4xMywwLjgyLTQuODIsMC44Mkg2NmwxNiwxNmg1MGgxMmM0LjQyLDAsOC42My0wLjksMTIuNDYtMi41MWMzLjgzLTEuNjIsNy4yOC0zLjk2LDEwLjE3LTYuODYKCQljMS40NS0xLjQ1LDIuNzYtMy4wMywzLjkxLTQuNzRjMi4zLTMuNCwzLjk2LTcuMjgsNC44MS0xMS40NGMwLjQzLTIuMDgsMC42NS00LjI0LDAuNjUtNi40NXYtMTJWOTYuMTVWODRsLTYtMTlsLTEwLjgyLDIuMTgKCQlDMTU5LjY2LDY4LjcxLDE2MCw3MC4zMSwxNjAsNzJ6Ii8+Cgk8cGF0aCBpZD0iQmx1ZSIgZmlsbD0iIzQyODVGNCIgZD0iTTMyLDcyYzAtMS42OSwwLjM0LTMuMjksMC44Mi00LjgyYzEuNTctNC45Miw1LjQzLTguNzgsMTAuMzUtMTAuMzVDNDQuNzEsNTYuMzQsNDYuMzEsNTYsNDgsNTYKCQloOTZjMS42OSwwLDMuMjksMC4zNCw0LjgyLDAuODJjMCwwLDAsMCwwLDBMMTQ5LDQ1bC0xNy01bC0xNi0xNmgtMTMuNDRIOTZoLTYuNTZINzZMNjAsNDBINDhjLTE3LjY3LDAtMzIsMTQuMzMtMzIsMzJ2MTJ2MjBsMTYsMTYKCQlWNzJ6Ii8+Cgk8cGF0aCBpZD0iR3JlZW4iIGZpbGw9IiMzNEE4NTMiIGQ9Ik0xNDQsNDBoLTEybDE2LjgzLDE2LjgzYzEuMjMsMC4zOSwyLjM5LDAuOTMsMy40NywxLjU5YzIuMTYsMS4zMiwzLjk3LDMuMTMsNS4yOSw1LjI5CgkJYzAuNjYsMS4wOCwxLjIsMi4yNCwxLjU5LDMuNDd2MEwxNzYsODRWNzJDMTc2LDU0LjMzLDE2MS42Nyw0MCwxNDQsNDB6Ii8+Cgk8cGF0aCBpZD0iWWVsbG93IiBmaWxsPSIjRkJCQzA0IiBkPSJNNDgsMTY4aDM5Ljg5bC0xNi0xNkg0OGMtOC44MiwwLTE2LTcuMTgtMTYtMTZ2LTIzLjg5bC0xNi0xNlYxMzZDMTYsMTUzLjY3LDMwLjMzLDE2OCw0OCwxNjh6CgkJIi8+CjwvZz4KPC9zdmc+Cg==');/*Imagen de ícono*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 24px;
+    height: 18px;
+    padding-left: 25px;
+}
+
+/*TOOLTIPS*/
+.menu-icon,
+.foto-icon,
+.micro-icon,
+.cam-icon{
+    font-weight: normal; /*Para tooltip*/
+    color: #4824eb;
+    text-decoration: none;
+    position: relative;/*importante*/
+}
+
+.tooltip-h,
+.tooltip-box{
+    display: none;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.048);
+    line-height: 1.5px;
+    z-index: 2;
+    text-align: center;
+    color: #5f6368;
+    font-size: 12px;
+    padding: 10px;
+    left: 50%;
+    transform: translateX(-50%);/*centrar el tooltip horizontalmente*/
+    bottom: -38px;
+    width: auto;
+}
+    
+.tooltip-box::after{/*Agrega punta a tooltip*/
+    position: absolute;
+    content:"";
+    display: block;
+    border-bottom: 7px solid rgba(0, 0, 0, 0.048);
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    top: -7px;
+    left: calc(50% - 7px);
+}   
+
+.menu-icon:hover .tooltip-h,
+.foto-icon:hover .tooltip-h,
+.micro-icon:hover .tooltip-box, 
+.cam-icon:hover .tooltip-box{/*Muesta el tooltip al pasar el cursor*/
+    display: inline-block;
+    white-space: nowrap;
+}
+
+/*Botones*/
+main .main-buttons{
+    width: 530px;
+    margin: 0 auto;    
+}
+
+main .main-buttons div{/*Coloca botones en sola linea*/
+    display: inline-block;
+}
+
+main .main-buttons button{
+    height: 36px;
+    background-color: #f8f9f9;
+    border: 0;
+    font-size: 14px;
+    color: #5f6368;
+    border-radius: 6px;
+    padding: 0 15px;
+    margin-right: 12px;
+}
+
+main .main-buttons button:hover{
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 0.5px 1px 0 #000001;
+    cursor: pointer;/*Cambia el cursor a manita*/
+}
+
+footer{/*General*/
+    width: 100%;
+    height: 90px;
+    background-color: #f2f2f2;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 14px;
+    border-top: 1px solid #e4e4e4;
+}
+
+footer ul{/*Listas general*/
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+
+}
+
+
+footer .footer-up{
+    justify-self: left;
+}
+
+footer .footer-left{
+    justify-self: left;
+}
+
+footer .footer-right{
+    justify-self: right;
+}
+
+footer ul li a{
+    margin: 10px;
+    color: #5f6368;
+    position: relative;/*Para poder subrayar*/
+}
+
+/*------------------------------------------------------------*/
+/*Subrayado vínculos de footer*/
+footer ul li a:hover{
+    /*Normal*/
+    text-decoration: underline;
+}
+    /*Animado*/
+    /*  footer ul li a:after {
+    /*    content: "";
+    /*    position: absolute;
+    /*    right: 0;
+    /*    bottom: 0;
+    /*    left: 0;
+    /*    height: 1px;/*Ancho de subrayado*/
+    /*    width: 100%;
+    /*    background: #5f6368b2;
+    /*    /*animacion de derecha a izquierda*/
+    /*    transform-origin: right;
+    /*    transform: scaleX(0);/*Desaparece linea*/
+    /*    transition: transform 0.2s ease-in-out;
+    /*  }
+  
+    /*footer ul li a:hover:after {
+    /*    /*animacion de derecha a izquierda*/
+    /*    transform-origin: left;/*Origen de subrayado*/
+    /*    transform: scaleX(1);
+    /* }
+/*------------------------------------------------------------*/

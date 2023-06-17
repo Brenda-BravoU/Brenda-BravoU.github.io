@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es"><!--Idioma-->
+<head>
+    <meta charset="UTF-8"> <!--No símbolos raros-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--compatible con oras páginas-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Clonación de Google</title> <!--nombre pestaña-->
+    <link rel="icon" href="imagenes/icono.ico"> <!--Icono pestaña--> 
+</head>
+<body>
+    <header> <!--Encabezado-->
+        <nav> <!--Barra de navegacion-->
+            <ul class="nav-right-section"><!--Poder modificar esta sección (Sección de navegacion derecha)-->
+                <li><a href="https://mail.google.com/mail/?tab=rm&ogbl">Gmail</a></li>
+                <li><a href="https://www.google.com.mx/imghp?hl=es-419&tab=ri&ogbl">Imágenes</a></li>
+                <li class="menu-icon"><a href="-"> <!--"Class" es para agregar icono y modificar en css-->
+                    <span class="tooltip-h">Google Apps</span>
+                </a></li>
+                <li class="foto-icon"><a><img src="https://lh3.googleusercontent.com/a/AAcHTtfDzQTMnIo34nZsQn4sHiihygPcrM5bgX0uRK-X=s288-c-no">
+                    <span class="tooltip-h">Cuenta de Google</span>
+                </a></li><!--Enlace de imagen copiada, el detalle de forma de img. será con css-->
+            </ul>
+        </nav>
+    </header> 
+    
+    <main> <!--Cuerpo. Dividir en secciones.-->
+        <section class="main-logo"><!-- Imagen Google-->
+            <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">
+        </section>
+
+        <section class="main-input"> <!--Barra de búsqueda-->
+            <div  class="main-input-container">
+                <span class="search-icon"></span>
+                <input type="text"><!--Ingresar dato tipo texto-->
+                <a class="micro-icon" href="--">
+                    <span class="tooltip-box">Búsqueda por voz</span><!--Texto que apareceerá en cuadro emergente/Tooltips-->
+                </a>
+                <a class="cam-icon" href="--">
+                    <span class="tooltip-box">Búsqueda por imágen</span>
+                </a>
+            </div>
+        </section>
+
+        <section class="main-buttons"><!--Agregar Botones-->
+            <div><!--Se ajustan en dif. div para poder modificar en css-->
+                <button>Buscar con Google</button>
+            </div>
+            <div>
+                <button>Voy a tener suerte</button>
+            </div>
+
+        </section>
+    </main>
+    
+    <footer> <!--Pie de página-->
+        <ul class='"footer-up'><!--Lista superior-->
+            <li><a ref=''>México</a></li>
+        </ul>
+
+        <hr><!--Separa en dos el footer horizontalmente-->
+
+         <!--Lista inferior izquierda-->
+        <ul class="footer-left">
+            <li><a href="https://about.google/?utm_source=google-MX&utm_medium=referral&utm_campaign=hp-footer&fg=1">Sobre Google</a></li>
+            <li><a href="https://ads.google.com/intl/es-419_mx/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Publicidad</a></li>
+            <li><a href="https://smallbusiness.withgoogle.com/intl/es-419_mx/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google&utm_medium=ep&utm_campaign=google_hpbfooter&utm_content=google_hpbfooter&gmbsrc=ww-ww-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u&c=MX#!/">Negocios</a></li>
+            <li><a href="https://www.google.com/search/howsearchworks/?fg=1">Como funciona la búsqueda</a></li>
+        </ul>
+        <!--Lista derecha-->
+        <ul class="footer-right">
+            <li><a href="https://policies.google.com/privacy?hl=es-419&fg=1">Privacidad</a></li>
+            <li><a href="https://policies.google.com/terms?hl=es-419&fg=1">Condiciones</a></li>
+            <li><a href="">Preferencias</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
