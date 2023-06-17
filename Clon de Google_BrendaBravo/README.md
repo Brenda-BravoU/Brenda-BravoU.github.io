@@ -1,9 +1,9 @@
-# Clonación de la interfaz de Google creado con HTTML5 y CSS3 en el bootcamp de Tecnolochicas PRO
+# Clonación de la interfaz de Google creado con HTTML5 y CSS en el curos de Tecnolochicas PRO
 
 
 ## **ÍNDICE**
 
-* [1. Intro](#)
+* [1. Introducción ](#)
 * [2. Qué construí](#)
 * [3. Objetivo del proyecto](#)
 * [4. Link a demo](#)
@@ -16,7 +16,7 @@ HTML5 trabaja de la mano con CSS3 para crear páginas web que usamos todos los d
 
 ## 2. Qué construí
 
-En este proyecto me enfoqué en construir la clonación de la interfaz de Google. Contiene las siguientes secciones:
+En este proyecto me enfoqué en construir la clonación de la interfaz de Google con el mayor detalle este tiene las siguientes secciones:
 
 * **Header**: Sección que involucra la foto de mi perfil, iconos y el menú con hipervínculos.
 
