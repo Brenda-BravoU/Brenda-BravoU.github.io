@@ -1,4 +1,4 @@
-# Clonación de la interfaz de Google creado con HTTML5 y CSS en el curos de Tecnolochicas PRO
+# Clonación de la interfaz de Google creado con HTTML y CSS en el curso de Tecnolochicas PRO
 
 
 ## **ÍNDICE**
@@ -6,13 +6,16 @@
 * [1. Introducción ](#)
 * [2. Qué construí](#)
 * [3. Objetivo del proyecto](#)
-* [4. Link a demo](#)
+* [4. Conclusión](#)
 
 ****
 
-## 1. Intro
+## 1. Introducción
 
-HTML5 trabaja de la mano con CSS3 para crear páginas web que usamos todos los dás en el navegador. Incluso, este sitio web en donde estas viendo este contenido esta construido con HTML y CSS. En este poyecto, con los conocimientos de HTML y CSS realicé la clonacion de la interfaz de Google.
+HTML y CSS son dos lenguajes fundamentales en el desarrollo web que trabajan de manera eficiente en conjunto. HTML, o HyperText Markup Language, se encarga de definir la estructura y el contenido de una página web, mientras que CSS, o Cascading Style Sheets, se utiliza para darle estilo y presentación visual. 
+La elección de utilizar HTML y CSS para la clonación de Google en el curso de Tecnolochicas puede despertar una pasión especial por varias razones. En primer lugar, ambas tecnologías son fundamentales en el desarrollo web y aprender a utilizarlas efectivamente brinda habilidades prácticas y valiosas en el campo de la programación y el diseño de interfaces de usuario.
+
+Además, la clonación de Google ofrece un emocionante desafío creativo y técnico. Replicar una página tan reconocida y utilizada a nivel mundial requiere atención al detalle, investigación y comprensión de las mejores prácticas de diseño web. La pasión puede surgir de la emoción de poder recrear con precisión la apariencia y funcionalidad de una plataforma tan icónica. Utilizar HTML y CSS en la clonación de Google permite experimentar y personalizar la página según tus propias preferencias y estilo. Puedes poner a prueba tus habilidades creativas al adaptar elementos visuales y agregar toques personales al diseño.
 
 ## 2. Qué construí
 
@@ -27,5 +30,5 @@ En este proyecto me enfoqué en construir la clonación de la interfaz de Google
 ## 3. Objetivo del Proyecto
 Aprender a utilizar las etiquetas estándar de HTML5 y los estilos de CSS3.
 
-## 4. Link a Demo
-Aquí puedes visualizar mi proyecto terminado: [Clonación de Google](https://clongooglee.netlify.app)
+## 4. Conclusión
+En el contexto del curso de Tecnolochicas, la clonación de Google puede ser una excelente oportunidad para explorar y fomentar el interés en el desarrollo web y la tecnología en general. Al utilizar HTML y CSS para crear una réplica de Google, puedes experimentar de primera mano el poder y la versatilidad de estas herramientas, lo que potencialmente puede inspirar una pasión duradera por el mundo de la programación y el diseño web.
